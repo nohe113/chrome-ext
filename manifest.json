@@ -1,0 +1,12 @@
+{
+  "name": "Send to homeserver",
+  "version": "1.0",
+  "description": "Send link to homeserver",
+  "browser_action": {},
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": ["activeTab","tabs"],
+    "manifest_version": 2
+}
